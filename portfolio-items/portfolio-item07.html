@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaihao Liu's Personal Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="../styles.css" />
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@300;900&family=Great+Vibes:wght@300;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+        rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Crimson+Pro&family=Hachi+Maru+Pop&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <!-- <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script> -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io/site.webmanifest">
+</head>
+
+<body>
+    <canvas id = 'mycanvas' style = 'z-index: 0; position: absolute; left: 0; opacity: 0.8; top: 0;'></canvas>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header> 
+        <section>
+            <ul class = 'navBar'>
+                <li class = 'navItem'>
+                    <h4><a href = '../index.html#home' class = 'nav-link'> Home </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = '../portfolio.html#portfolio' class = 'nav-link'> Portfolio </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = '../life.html#life' class = 'nav-link'> Life </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = '../sources.html#sources' class = 'nav-link'> Sources </a></h4>
+                </li>
+                
+            </ul>
+        </section>
+        <section>
+            <div><img class = 'hover-one welcome' src="../img/welcome.png" alt=""></div>
+            <div><img class = 'hover-one iam' src="../img/iam.png" alt=""></div>
+            <div><img class = 'hover-one lkh' src="../img/LKH.png" alt=""></div>
+        </section>
+        
+        <section class = 'intro' id = 'item7'>
+            <h1 class = 'hover-one longText'>Programmer, Explorer, Dreamer</h1>
+            <h1 class = 'hover-one shortText'>Programmer</h1>
+            <h1 class = 'hover-one shortText'>Explorer</h1>
+            <h1 class = 'hover-one shortText'>Dreamer</h1>
+            <img src = '../img/lkhicon_small.jpg' alt = '' class = 'hover-one logo'>
+        </section>
+    </header>
+    
+    <div class = indi-item>
+        <div class = 'intro-port' id = 'home'>
+            <h1 class = 'section-title section-title-intro'><strong>Group Research Project</strong></h1>
+            <p class = 'section-subtitle section-subtitle-intro'>Detailed Face Model Generation</p>
+            <img src = '../img/faceGenlogo.jpg' alt = 'T.T Image Not Found' class = 'intro-port-img'>
+        </div>
+        
+        <div class = 'port-item-exp'>
+            
+            <p>I joined this project in February 2021. </p>
+
+            <p>Our goal is to generate a detailed 3d face model using one photo as input.</p>
+
+            <p>Prior to joining the group, I had very limited knowledge of the project; therefore, I learned a lot during the process.</p>
+
+            <p>By reading and annotating multiple related papers, I obtained precious experience of how computer science-related research works.</p>
+
+            <p>By working and learning from people around me, I also tasted the life of a professional researcher.</p>
+
+            <p>My main task is to set up State of the Art projects and compare their result.</p>
+
+            <p>Shown below are some examples of the works that I have done.</p>
+
+            <div class = 'title hover-two'>Some of the Models that I Have Set Up and Operated With</div>
+            <p>Models includes FLAME, DECA, 3DDFA_V2, and RingNet.</p>
+
+            <div class = 'portfolio'>
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/FLAME1.png' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/FLAME2.png' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/DECA1.png' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/3ddfa2.png' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/RingNet1.png' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/RingNet2.png' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+            </div>
+            <br>
+            <div class = 'title hover-two'>Self Manipulation</div>
+            <p>I Also Manipulated These Models to Generate OverLay Results (for Comparing Purposes).</p>
+
+            <div class = 'portfolio'>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/DECA2.jpg' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/DECA3.jpg' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/3ddfa.png' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+            </div>
+
+            <br>
+            <div class = 'title hover-two'>Image Comparison</div>
+            <p>To Compare Images, I Studied and Set up a Comparing System that incorporates:</p>
+            <p>SSIM (Structural Similarity), PNSR (Peak signal-to-noise ratio), LPIPS (Perceptual Similarity Metric) and CSIM (Cosine Similarity).</p>
+            <p>To further test the quality of the reconstructed faces, I also utlized algorithms such as that provided by FaceNet and Face++.</p>
+
+            <div class = 'portfolio'>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/compare1.png' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/compare2.png' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+                <div class = 'portfolio-item'>
+                    <img src = '../img/research/compare3.png' alt = 'T.T Image Not Found' class = 'portfolio-img'>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class = 'footer'>
+    <img src="../img/bottom2.png" class = 'bottomImg hover-one' alt="">
+    <!-- <img src="./img/bottom.png" class = 'bottomImg' alt=""> -->
+    <div class = emails>
+        <div><a href='mailto: yubanmeiqin9908@gmail.com' class = 'footer-link'>Personal Email: yubanmeiqin9908@gmail.com</a></div>
+        <div><a href='mailto: kaihao@live.unc.edu' class = 'footer-link'>School Email: kaihao@live.unc.edu</a></div>
+    </div>
+    <ul class = 'social-list'>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://twitter.com/ltkx1999'> <i class = 'fab fa-twitter'></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://github.com/lkh9908'> <i class = 'fab fa-github'></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://www.linkedin.com/in/kaihao-liu-7b9361161/'> <i class="fab fa-linkedin"></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://blogslkh.blogspot.com'> <i class="fab fa-blogger"></i> </a></li>
+    </ul>
+    <p>© 2021 Made by LKH</p>
+</footer>
+
+<script src = '../others.js'></script>
+<script src = '../canvas.js'></script>
+
+</html>

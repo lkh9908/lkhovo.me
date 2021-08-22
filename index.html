@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaihao Liu's Personal Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@300;900&family=Great+Vibes:wght@300;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+        rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Crimson+Pro&family=Hachi+Maru+Pop&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <!-- <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script> -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+
+</head>
+
+<body>
+    <canvas id = 'mycanvas' style = 'z-index: 0; position: absolute; left: 0; opacity: 0.8; top: 0;'></canvas>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header> 
+        <section>
+            <ul class = 'navBar'>
+                <li class = 'navItem'>
+                    <h4><a href = '#home' class = 'nav-link'> Home </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = './portfolio.html#portfolio' class = 'nav-link'> Portfolio </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = './life.html#life' class = 'nav-link'> Life </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = './sources.html#sources' class = 'nav-link'> Sources </a></h4>
+                </li>    
+            </ul>
+        </section>
+        <section>
+            <div><img class = 'hover-one welcome' src="./img/welcome.png" alt=""></div>
+            <div><img class = 'hover-one iam' src="./img/iam.png" alt=""></div>
+            <div><img class = 'hover-one lkh' src="./img/LKH.png" alt=""></div>
+        </section>
+        
+        <section class = 'intro' id = 'home'>
+            <h1 class = 'hover-one longText'>Programmer, Explorer, Dreamer</h1>
+            <h1 class = 'hover-one shortText'>Programmer</h1>
+            <h1 class = 'hover-one shortText'>Explorer</h1>
+            <h1 class = 'hover-one shortText'>Dreamer</h1>
+            <img src = './img/lkhicon_small.jpg' alt = '' class = 'hover-one logo'>
+        </section>
+    </header>
+
+    <section class = 'about'>
+        <div class="row">
+            <div class="column left">
+                <h2 class = 'title hover-two'> Who am I </h2>
+                <div class = 'about-body hover-two'>
+                    <p>I am Kaihao Liu, a student at the University of North Carolina-Chapel Hill pursuing computer science, statistics, and Japanese</p>
+                    <p>While acquiring the necessary knowledge for a job in the CS field, I am also looking into other possibilities</p>
+                    <p>Apart from my academic interests, I love arts, history, and philosophy</p>
+                    <p>I intend to live a life that is both abundant in material and spirit</p>
+                    <p>I am unsure about my future; however, I am willing to strive for a brighter one</p>
+                </div>
+            </div>
+            <div class="column right hover-two">
+                <div class = 'about-img'></div>
+            </div>
+        </div>       
+    </section>
+    <br>
+    <section class = 'skills' id = 'skills'>
+        <h2 class = 'title hover-two'> What I do </h2>
+        <div class = 'skills-list'>
+            <div class = 'skill hover-two'>
+                <h3>Developer</h3>
+                <p>Solid experience with HTML, CSS, and JavaScript</p>
+                <p>Developed multiple websites and web-based applications</p>
+                <p>Familiar with React.js, Vue.js, and other popular libraries</p>
+                <p>Well expereinced with back-end related technology such as:</p>
+                <p>express.js, graph QL, SQL, python, and mongoDB </p>
+            </div>
+
+            <div class = 'skill hover-two'>
+                <h3>Multilingual Talent</h3>
+                <p>As a native Chinese who has lived in the U.S. since 13</p>
+                <p>I am fluent in both Mandarin and English</p>
+                <p>Also, for four years in highschool, I studied Spanish and my skill was praised both by teachers and classmates </p>
+                <p>Finally, I have been studying Japanese for the past few years and am taking the most advanced courses that my school can offer</p>
+            </div>
+
+            <div class = 'skill hover-two'>
+                <h3>Artist/Designer</h3>
+                <p>I have begun drawing and painting from a very young age</p>
+                <p>I am expereinced with several types of art</p>
+                <p>From sketching, oil painting, watercolor, to Chinese brush painting </p>
+                <p>I have also practiced modern designing technologies such as:</p>
+                <p>Adobe (Photoshop, Illustrator, Audition), 3D-designing (Fusion 360 and Tinkercad), and computational photography</p>
+            </div>
+        </div>
+        <br>
+        <div class = 'wish'> Hover to Make a Wish! </div>
+        <br>
+    </section>
+
+    <section class = 'contact'>
+        <h2 class = 'title hover-two'> Contact Me </h2>
+        <div class = 'hover-two contact-link'>
+            <p> <i class = 'fab fa-twitter'></i> Twitter: <a class = 'footer-link' href="https://twitter.com/ltkx1999">Link</a></p>
+        </div>
+        <div class = 'hover-two contact-link'>
+            <p> <i class = 'fab fa-github'></i> Github: <a class = 'footer-link' href="https://github.com/lkh9908">Link</a></p>
+        </div>
+        <div class = 'hover-two contact-link'>
+            <p> <i class = 'fab fa-linkedin'></i> Linkedin: <a class = 'footer-link' href="https://www.linkedin.com/in/kaihao-liu-7b9361161/">Link</a></p>
+        </div>
+        <div class = 'hover-two contact-link'>
+            <p> <i class = 'fab fa-blogger'></i> Blogger: <a class = 'footer-link' href="https://blogslkh.blogspot.com">Link</a></p>
+        </div>
+        <div class = 'hover-two contact-link'>
+            <p> <i class="fas fa-envelope-open-text"></i> Personal Email: <a class = 'footer-link' href="mailto: yubanmeiqin9908@gmail.com">yubanmeiqin9908@gmail.com</a></p>
+        </div>
+        <div class = 'hover-two contact-link'>
+            <p> <i class="fas fa-envelope-open-text"></i> School Email: <a class = 'footer-link' href="mailto: kaihao@live.unc.edu">kaihao@live.unc.edu</a></p>
+        </div>
+
+        <div class = 'hover-two contact-link'>
+            <p> <i class="fas fa-file"></i> Download EN Resume: 
+                <a class = 'footer-link' href="./Kaihao_Resume_eng_long.pdf" download>Long Version</a>
+                <a class = 'footer-link' href="./Kaihao_Resume_eng_short.pdf" download>Short Version</a>
+            </p>
+        </div>
+
+        <div class = 'hover-two contact-link'>
+            <p> <i class="fas fa-file"></i> 下载中文简历: 
+                <a class = 'footer-link' href="./Kaihao_Resume_cn_long.pdf" download>多页</a>
+                <a class = 'footer-link' href="./Kaihao_Resume_cn_short.pdf" download>单页</a>
+            </p>
+        </div>
+
+
+    </section>
+
+</body>
+
+<footer class = 'footer'>
+    <img src="./img/bottom2.png" class = 'bottomImg hover-one' alt="">
+    <!-- <img src="./img/bottom.png" class = 'bottomImg' alt=""> -->
+    <div class = emails>
+        <div><a href='mailto: yubanmeiqin9908@gmail.com' class = 'footer-link'>Personal Email: yubanmeiqin9908@gmail.com</a></div>
+        <div><a href='mailto: kaihao@live.unc.edu' class = 'footer-link'>School Email: kaihao@live.unc.edu</a></div>
+    </div>
+    <ul class = 'social-list'>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://twitter.com/ltkx1999'> <i class = 'fab fa-twitter'></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://github.com/lkh9908'> <i class = 'fab fa-github'></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://www.linkedin.com/in/kaihao-liu-7b9361161/'> <i class="fab fa-linkedin"></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://blogslkh.blogspot.com'> <i class="fab fa-blogger"></i> </a></li>
+    </ul>
+    <p>© 2021 Made by LKH</p>
+</footer>
+
+<script src = './index.js'></script>
+<script src = './canvas.js'></script>
+
+</html>

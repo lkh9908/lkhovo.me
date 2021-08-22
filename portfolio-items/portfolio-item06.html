@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaihao Liu's Personal Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="../styles.css" />
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@300;900&family=Great+Vibes:wght@300;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+        rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Crimson+Pro&family=Hachi+Maru+Pop&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <!-- <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script> -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io/site.webmanifest">
+</head>
+
+<body>
+    <canvas id = 'mycanvas' style = 'z-index: 0; position: absolute; left: 0; opacity: 0.8; top: 0;'></canvas>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <header> 
+        <section>
+            <ul class = 'navBar'>
+                <li class = 'navItem'>
+                    <h4><a href = '../index.html#home' class = 'nav-link'> Home </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = '../portfolio.html#portfolio' class = 'nav-link'> Portfolio </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = '../life.html#life' class = 'nav-link'> Life </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = '../sources.html#sources' class = 'nav-link'> Sources </a></h4>
+                </li>
+                
+            </ul>
+        </section>
+        <section>
+            <div><img class = 'hover-one welcome' src="../img/welcome.png" alt=""></div>
+            <div><img class = 'hover-one iam' src="../img/iam.png" alt=""></div>
+            <div><img class = 'hover-one lkh' src="../img/LKH.png" alt=""></div>
+        </section>
+        
+        <section class = 'intro' id = 'item6'>
+            <h1 class = 'hover-one longText'>Programmer, Explorer, Dreamer</h1>
+            <h1 class = 'hover-one shortText'>Programmer</h1>
+            <h1 class = 'hover-one shortText'>Explorer</h1>
+            <h1 class = 'hover-one shortText'>Dreamer</h1>
+            <img src = '../img/lkhicon_small.jpg' alt = '' class = 'hover-one logo'>
+        </section>
+    </header>
+    
+    <div class = indi-item>
+        <div class = 'intro-port' id = 'home'>
+            <h1 class = 'section-title section-title-intro'><strong>Computational Photography</strong></h1>
+            <p class = 'section-subtitle section-subtitle-intro'>Digital Computation Using MatLab</p>
+            <img src = '../img/emirlogo.jpg' alt = 'T.T Image Not Found' class = 'intro-port-img'>
+        </div>
+        
+        <div class = 'port-item-exp'>
+
+            <div id = 'artistic' class = 'title hover-two'> Artistic Filters </div>
+
+            <p class = 'title hover-two'>Sepia</p>
+            <img src = '../img/572img/myimg1.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+            <img src = '../img/572img/myimg1_sepia.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'title hover-two'>The Underworld</p>
+            <img src = '../img/572img/myimg2.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+            <img src = '../img/572img/myimg2_filter.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'title hover-two'><a href = 'https://drive.google.com/drive/folders/1lzy4Cl9p080ta_t0OdVo-ZjdLuJUk3kM?usp=sharing'>More Results For Artistic Filters</a></p>
+
+            <br>
+
+            <div id = 'blend' class = 'title hover-two'> Blending Using Gaussian and Laplacian Pyramids </div>
+
+            <img src = '../img/572img/set3_bg.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img-small hover-one'>
+            <img src = '../img/572img/set3_obj.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img-small hover-one'>
+            <img src = '../img/572img/set3_result3.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'title hover-two'><a href = 'https://drive.google.com/drive/folders/1KPUyOTRxKA4mtNRJF93lg1YbilLSR-Hl?usp=sharing'>More Results For Pyramid Blending</a></p>
+
+            <br>
+
+            <div id = 'color' class = 'title hover-two'> Coloring the Prokudin-Gorskii Collection (The Magic of RGB)</div>
+
+            <img src = '../img/572img/emir.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+            <img src = '../img/572img/emir_color.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'title hover-two'><a href = 'https://drive.google.com/drive/folders/1onCMAa6EYiwHXaqxn-ZGUW0xF3tEX1qI?usp=sharing'>More Results For the Prokudin-Gorskii Collection</a></p>
+
+            <br>
+
+            <div id = 'hybrid' class = 'title hover-two'> Hybrid Images (Try Looking at the Hybrid Image from Different Distances)</div>
+
+            <img src = '../img/572img/set6_near.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img-small hover-one'>
+            <img src = '../img/572img/set6_far.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img-small hover-one'>
+            <img src = '../img/572img/set6_hybrid.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'title hover-two'><a href = 'https://drive.google.com/drive/folders/1RTBmWpL5c1Hx7AR2kJB9Uevhu4TrWMDe?usp=sharing'>More Results For Hybrid Image</a></p>
+
+            <br>
+
+            <div id = 'bokeh' class = 'title hover-two'> Synthetic Bokeh (A Beautiful Blur) </div>
+
+            <img src = '../img/572img/set1_original.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+            <img src = '../img/572img/set1_bokeh.jpg' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'title hover-two'><a href = 'https://drive.google.com/drive/folders/1QIfKxgNtnMmeswO_Ag_LfHJw1qKp7ykJ?usp=sharing'>More Results For Synthetic Bokeh</a></p>
+
+            <br>
+
+            <div id = 'seam' class = 'title hover-two'> Seam Carving (Decrease Image Size While Preserving Important Features)</div>
+
+            <img src = '../img/572img/seam.png' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'title hover-two'><a href = 'https://drive.google.com/drive/folders/1wdWN7zRBj8twBLyeKIX0vCtvLzxQlp7A?usp=sharing'>More Results For Synthetic Bokeh</a></p>
+            <p class = 'title hover-two'><a href = 'https://www.youtube.com/watch?v=YqREJ-0ca-k'>My Video For Seam Carving</a></p>
+
+        </div>
+    </div>
+
+    
+    <div class="vertical-menu" id = 'menu'>
+        <a href="#artistic">Artistic Filters</a>
+        <a href="#blend">Pyramid Blending</a>
+        <a href="#color">Prokudin-Gorskii Collection</a>
+        <a href="#hybrid">Hybrid Image</a>
+        <a href="#bokeh">Synthetic Bokeh</a>
+        <a href="#seam">Seam Carving</a>
+    </div>
+</body>
+
+<footer class = 'footer'>
+    <img src="../img/bottom2.png" class = 'bottomImg hover-one' alt="">
+    <!-- <img src="./img/bottom.png" class = 'bottomImg' alt=""> -->
+    <div class = emails>
+        <div><a href='mailto: yubanmeiqin9908@gmail.com' class = 'footer-link'>Personal Email: yubanmeiqin9908@gmail.com</a></div>
+        <div><a href='mailto: kaihao@live.unc.edu' class = 'footer-link'>School Email: kaihao@live.unc.edu</a></div>
+    </div>
+    <ul class = 'social-list'>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://twitter.com/ltkx1999'> <i class = 'fab fa-twitter'></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://github.com/lkh9908'> <i class = 'fab fa-github'></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://www.linkedin.com/in/kaihao-liu-7b9361161/'> <i class="fab fa-linkedin"></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://blogslkh.blogspot.com'> <i class="fab fa-blogger"></i> </a></li>
+    </ul>
+    <p>© 2021 Made by LKH</p>
+</footer>
+
+<script src = '../others.js'></script>
+<script src = '../canvas.js'></script>
+
+</html>

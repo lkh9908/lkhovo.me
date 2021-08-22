@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaihao Liu's Personal Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="../styles.css" />
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@300;900&family=Great+Vibes:wght@300;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+        rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Crimson+Pro&family=Hachi+Maru+Pop&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <!-- <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script> -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io/site.webmanifest">
+</head>
+
+<body>
+    <canvas id = 'mycanvas' style = 'z-index: 0; position: absolute; left: 0; opacity: 0.8; top: 0;'></canvas>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header> 
+        <section>
+            <ul class = 'navBar'>
+                <li class = 'navItem'>
+                    <h4><a href = '../index.html#home' class = 'nav-link'> Home </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = '../portfolio.html#portfolio' class = 'nav-link'> Portfolio </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = '../life.html#life' class = 'nav-link'> Life </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = '../sources.html#sources' class = 'nav-link'> Sources </a></h4>
+                </li>
+                
+            </ul>
+        </section>
+        <section>
+            <div><img class = 'hover-one welcome' src="../img/welcome.png" alt=""></div>
+            <div><img class = 'hover-one iam' src="../img/iam.png" alt=""></div>
+            <div><img class = 'hover-one lkh' src="../img/LKH.png" alt=""></div>
+        </section>
+        
+        <section class = 'intro' id = 'item1'>
+            <h1 class = 'hover-one longText'>Programmer, Explorer, Dreamer</h1>
+            <h1 class = 'hover-one shortText'>Programmer</h1>
+            <h1 class = 'hover-one shortText'>Explorer</h1>
+            <h1 class = 'hover-one shortText'>Dreamer</h1>
+            <img src = '../img/lkhicon_small.jpg' alt = '' class = 'hover-one logo'>
+        </section>
+    </header>
+    
+    <div class = indi-item>
+        <div class = 'intro-port' id = 'home'>
+            <h1 class = 'section-title section-title-intro'><strong>Miaomiao App</strong></h1>
+            <p class = 'section-subtitle section-subtitle-intro'>Social Web Application</p>
+            <img src = '../img/catLogo.jpg' alt = 'T.T Image Not Found' class = 'intro-port-img'>
+        </div>
+        
+        <div style="text-align: center;">
+            <p class = 'hover-two'><a href = 'https://miaomiao-chat.herokuapp.com/'>Link to the App</a></p>
+            <p class = 'hover-two'><a href="https://www.youtube.com/watch?v=LntjpsF5y00">Link to the Demo Video</a></p>
+            <p class = 'hover-two'><a href = 'https://docs.google.com/presentation/d/1-U-Itc4LkOv2nRPPu1WM7vy-hW4TyQ-4mRjmNo5mX_c/edit?usp=sharing'>Link to Presentation Slides About the App</a></p>
+        </div>
+        <div class = 'port-item-exp'>
+
+            <p class = 'hover-two'>With three other teammates, in less than five days, we developed a social app from scratch using JavaScript, HTML, CSS, 
+              and a REST API for the backend. </p>
+
+            <p class = 'hover-two'> app is fully deployed and can be accessed from the web anywhere.</p>
+
+            <img src = '../img/miaomiao01.png' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'hover-two'>To help people make new friends, Miaomiao utilizes a personality test and matches users base on the score they got.</p>
+
+            <img src = '../img/miaomiao02.png' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+            <!-- <img src = '../img/miaomiao03.png' alt = 'T.T Image Not Found' class = 'port-item-exp-img'> -->
+
+            <p class = 'hover-two'>Miaomiao also have a live chat system, which allows all users who are currently online to chat with each other.</p>
+
+            <img src = '../img/miaomiao04.png' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'hover-two'>At the core of our design is the anonymous post box, which allows people to ask their friends things they would not dare to ask in person!</p> 
+
+            <img src = '../img/miaomiao05.png' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'hover-two'>If the user ges bored, there is an quiz game for them to relax.</p>
+
+            <img src = '../img/miaomiao06.png' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+
+            <p class = 'hover-two'>Lastly, Miaomiao has a bad word filter system which forbid people to use bad words in their name or post-box related inputs.</p>
+
+            <img src = '../img/miaomiao07.png' alt = 'T.T Image Not Found' class = 'port-item-exp-img hover-one'>
+        </div>
+    </div>
+</body>
+
+<footer class = 'footer'>
+    <img src="../img/bottom2.png" class = 'bottomImg hover-one' alt="">
+    <!-- <img src="./img/bottom.png" class = 'bottomImg' alt=""> -->
+    <div class = emails>
+        <div><a href='mailto: yubanmeiqin9908@gmail.com' class = 'footer-link'>Personal Email: yubanmeiqin9908@gmail.com</a></div>
+        <div><a href='mailto: kaihao@live.unc.edu' class = 'footer-link'>School Email: kaihao@live.unc.edu</a></div>
+    </div>
+    <ul class = 'social-list'>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://twitter.com/ltkx1999'> <i class = 'fab fa-twitter'></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://github.com/lkh9908'> <i class = 'fab fa-github'></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://www.linkedin.com/in/kaihao-liu-7b9361161/'> <i class="fab fa-linkedin"></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://blogslkh.blogspot.com'> <i class="fab fa-blogger"></i> </a></li>
+    </ul>
+    <p>© 2021 Made by LKH</p>
+</footer>
+
+<script src = '../others.js'></script>
+<script src = '../canvas.js'></script>
+
+</html>

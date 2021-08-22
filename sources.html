@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaihao Liu's Personal Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@300;900&family=Great+Vibes:wght@300;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+        rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Crimson+Pro&family=Hachi+Maru+Pop&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <!-- <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script> -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+</head>
+
+<body>
+    <canvas id = 'mycanvas' style = 'z-index: 0; position: absolute; left: 0; opacity: 0.8; top: 0;'></canvas>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header> 
+        <section>
+            <ul class = 'navBar'>
+                <li class = 'navItem'>
+                    <h4><a href = './index.html#home' class = 'nav-link'> Home </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = './portfolio.html#portfolio' class = 'nav-link'> Portfolio </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = './life.html#life' class = 'nav-link'> Life </a></h4>
+                </li>
+                <li class = 'navItem'>
+                    <h4><a href = '#sources' class = 'nav-link'> Sources </a></h4>
+                </li>
+                
+            </ul>
+        </section>
+        <section>
+            <div><img class = 'hover-one welcome' src="./img/welcome.png" alt=""></div>
+            <div><img class = 'hover-one iam' src="./img/iam.png" alt=""></div>
+            <div><img class = 'hover-one lkh' src="./img/LKH.png" alt=""></div>
+        </section>
+        
+        <section class = 'intro' id = 'sources'>
+            <h1 class = 'hover-one longText'>Programmer, Explorer, Dreamer</h1>
+            <h1 class = 'hover-one shortText'>Programmer</h1>
+            <h1 class = 'hover-one shortText'>Explorer</h1>
+            <h1 class = 'hover-one shortText'>Dreamer</h1>
+            <img src = './img/lkhicon_small.jpg' alt = '' class = 'hover-one logo'>
+        </section>
+    </header>
+
+    <div class = 'work'>
+        
+        <h2 class = 'hover-two'> Sources </h2>
+
+        <p class = 'hover-two'> This Page Lists the Art Sources that are Used in This Website</p>
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4>Image 1:</h4>
+                    <p>By 藤原</p>
+                    <p>From Pixiv</p>
+                    <p><a href="https://www.pixiv.net/en/artworks/77959944">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/background.jpg" alt="">
+                </div>
+            </div>
+        </div> 
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 2:</h4>
+                    <p>By Unknown</p>
+                    <p>From Walpaperlist</p>
+                    <p><a href="https://www.walpaperlist.com/2020/01/anime-dark-blue-sky-wallpaper.html">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/background3.jpg" alt="">
+                </div>
+            </div>
+        </div>     
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 3:</h4>
+                    <p>By KuyaMark96</p>
+                    <p>From Deviant Art</p>
+                    <p><a href="https://www.deviantart.com/kuyamark96/art/Nisekoi-Happy-Haru-Onodera-Manga-Vector-566867034">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/bottom.png" alt="">
+                </div>
+            </div>
+        </div>  
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 4:</h4>
+                    <p>By Fhmpnf</p>
+                    <p>From subpng</p>
+                    <p><a href="https://www.subpng.com/png-xe354e/">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/bottom2.png" alt="">
+                </div>
+            </div>
+        </div>   
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 5:</h4>
+                    <p>By Anime: 響けユーフォニアム</p>
+                    <p>From Anime: 響けユーフォニアム</p>
+                    <p><a href="https://www.pinterest.jp/pin/AXf5Q-PJsM10JSI_fryGbV0O6MvPogap0Ttm5BdIdPsj7RLt8OYPQ1c/">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/life/anime.png" alt="">
+                </div>
+            </div>
+        </div>   
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 6:</h4>
+                    <p>By Tay</p>
+                    <p>From Pinterest</p>
+                    <p><a href="https://www.pinterest.com/pin/669066088386613499/">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/life/books.jpg" alt="">
+                </div>
+            </div>
+        </div>   
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 7:</h4>
+                    <p>By やすゆき</p>
+                    <p>From Pixiv</p>
+                    <p><a href="https://www.pixiv.net/artworks/80035153">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/life/fandom.jpg" alt="">
+                </div>
+            </div>
+        </div>   
+        
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 8:</h4>
+                    <p>By catalyststuff</p>
+                    <p>From freepik</p>
+                    <p><a href="https://www.freepik.com/premium-vector/salmon-sushi-with-chopstick-plate-cartoon-icon-illustration-japanese-food-icon-concept-isolated-flat-cartoon-style_9773589.htm">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/life/food.jpg" alt="">
+                </div>
+            </div>
+        </div>   
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 9:</h4>
+                    <p>By andonovmarko</p>
+                    <p>From Deviantart</p>
+                    <p><a href="https://www.deviantart.com/andonovmarko/art/Ori-and-the-Will-of-the-Wisps-Icon-751783885">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/life/game.png" alt="">
+                </div>
+            </div>
+        </div>   
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 10:</h4>
+                    <p>By stockunlimited</p>
+                    <p>From pixlr</p>
+                    <p><a href="https://pixlr.com/stock/details/1001387535-movie-icon/">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/life/movie.jpg" alt="">
+                </div>
+            </div>
+        </div>   
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 11:</h4>
+                    <p>By Unknown</p>
+                    <p>From Free Icon Icon Library</p>
+                    <p><a href="https://icon-library.com/icon/song-icon-png-25.html">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/life/song.jpg" alt="">
+                </div>
+            </div>
+        </div>   
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Image 12:</h4>
+                    <p>By Anime: ヴァイオレット・エヴァーガーデン</p>
+                    <p>From Anime: ヴァイオレット・エヴァーガーデン</p>
+                    <p><a href="https://violetevergarden.fandom.com/es/wiki/Violet_Evergarden_(anime)">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/life/travel.jpg" alt="">
+                </div>
+            </div>
+        </div>    
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4>Cursor:</h4>
+                    <p>Created By Nko-ennekappao</p>
+                    <p>From cursors-4u</p>
+                    <p><a href="https://www.cursors-4u.com/cursor/2011/12/14/singing-hatsune-miku.html">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/cursor1.png" alt="">
+                </div>
+            </div>
+        </div>     
+        
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4>Cursor:</h4>
+                    <p>Created By 顾盼</p>
+                    <p>From 顾盼's blog</p>
+                    <p><a href="https://gppa.cn/archives/143/">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/scroll.png" alt="">
+                </div>
+            </div>
+        </div>     
+
+        <div class="rowSource">
+            <div class="columnSource leftSource">
+                <div class = 'hover-two'>
+                    <h4> Artistic Text:</h4>
+                    <p>By Unknown</p>
+                    <p>From cooltext</p>
+                    <p><a href="https://cooltext.com/Logo-Design-Easy">Link to Original Source</a></p>
+                </div>
+            </div>
+            <div class="columnSource rightSource hover-two">
+                <div>
+                    <img class = 'source-img' src="./img/LKH.png" alt="">
+                </div>
+            </div>
+        </div>   
+
+            
+    </div>
+
+</body>
+
+<footer class = 'footer'>
+    <img src="./img/bottom2.png" class = 'bottomImg hover-one' alt="">
+    <!-- <img src="./img/bottom.png" class = 'bottomImg' alt=""> -->
+    <div class = emails>
+        <div><a href='mailto: yubanmeiqin9908@gmail.com' class = 'footer-link'>Personal Email: yubanmeiqin9908@gmail.com</a></div>
+        <div><a href='mailto: kaihao@live.unc.edu' class = 'footer-link'>School Email: kaihao@live.unc.edu</a></div>
+    </div>
+    <ul class = 'social-list'>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://twitter.com/ltkx1999'> <i class = 'fab fa-twitter'></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://github.com/lkh9908'> <i class = 'fab fa-github'></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://www.linkedin.com/in/kaihao-liu-7b9361161/'> <i class="fab fa-linkedin"></i> </a></li>
+        <li class = 'social-list-item'><a class = 'social-list-link' href = 'https://blogslkh.blogspot.com'> <i class="fab fa-blogger"></i> </a></li>
+    </ul>
+    <p>© 2021 Made by LKH</p>
+</footer>
+
+<script src = './others.js'></script>
+<script src = './canvas.js'></script>
+
+</html>
